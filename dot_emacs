@@ -10,4 +10,6 @@ echo "(global-linum-mode 1)
       tab-width 8
       indent-tabs-mode t)
 (cua-mode t)
-(show-paren-mode 1)" >> .emacs
+(show-paren-mode 1)
+(load-theme 'misterioso)
+(setq make-backup-files nil)" >> .emacs
