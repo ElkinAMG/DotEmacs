@@ -11,6 +11,6 @@ This new version of emacs config. add some new features like:
 ```
 1. git clone https://github.com/ElkinAMG/DotEmacs.git
 2. cd DotEmacs
-3. ./dot_emacs
+3. Type in the terminal ./dot_emacs
 4. Enjoy it!
 ```
