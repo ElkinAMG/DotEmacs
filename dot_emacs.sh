@@ -53,6 +53,12 @@ list_packages)
 (show-paren-mode)
 (auto-complete-mode)
 (global-visual-line-mode 1)
+(setq electric-pair-pairs
+      '(
+        (?\\\" . ?\\\")
+        (?\\< . ?\\>)))
+(electric-pair-mode 1)
+
 
 (require 'whitespace)
 (setq whitespace-style '(face empty lines-tail trailing))
@@ -76,6 +82,11 @@ list_packages)
 
 (custom-set-faces
 )" >> ~/.emacs
+
+if ls -a | grep "hello.py" > /dev/null ; then
+    rm hello.py
+fi
+
 
 echo "#!/usr/bin/python3
 #      Added:
