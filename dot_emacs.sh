@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Install a new theme for Emacs
-sudo apt-get install elpa-monokai-theme
-
 if ls -a | grep ".emacs" > /dev/null ; then
     rm ~/.emacs
 fi
@@ -20,8 +17,8 @@ t))
 (when (not package-archive-contents)
   (package-refresh-contents))
 
-;; Add Monokai Theme
-(load-theme 'monokai t)
+;; Add Theme
+(load-theme 'tango-dark t)
 
 ;; Add Needed Packages
 (defvar list_packages
