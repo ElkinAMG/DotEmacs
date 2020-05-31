@@ -88,7 +88,6 @@ fi
 echo "#!/usr/bin/python3
 #      Added:
 #     - Auto-complete - Package for autocomplete.
-#     - Monokai Theme - Theme for Emacs.
 #     - Elpy - Environment for Python development.
 #     - PEP8 automatic - Automatic beuaty for PEP8.
 
